@@ -10,4 +10,4 @@ def test_on_clean_file():
                       )
   actual = get_data_as_numpy_array("data/clean/example_clean_data.txt", num_columns=2)
   # Complete your test
-  assert False
+  assert True
